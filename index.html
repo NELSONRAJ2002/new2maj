@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal page</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/17569bd989.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav>
+                <img src="img/nelson-low1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">Education</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="welcome"><h2>welcome</h2></div>
+
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>hi, i am <span>Nelson raj</span> <br>from Cuddalore</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/portimg1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">about me</h1>
+                    <p>I am an enthusiastic, self-motivated, reliable, 
+                        responsible and hard working person. 
+                        I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well 
+                        under pressure and adhere to strict deadlines.</p>
+                        <div class="tab-title">
+                            <p class="tab-links avtive-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('expericnce')">Strengths</p>
+                            <p class="tab-links" onclick="opentab('education')">Hobbies</p>
+                            
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Web design</span><br>HTML&CSS, BOOTSTRAP
+                                </li>
+                                <li>
+                                    <span>PYTHON PROGRAMMING</span><br>DJANGO,FLASK FRAMEWORK
+                                </li>
+                                <li>
+                                    <span>JAVASCRIPT</span><br>REACT.JS FRAMEWORK
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="expericnce">
+                            <ul>
+                                <li>
+                                    <span>Team player</span><br>
+                                </li>
+                                <li>
+                                    <span>Positive thinker</span><br>
+                                </li>
+                                <li>
+                                    <span>easily adapt to new environment</span><br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>Listening to songs</span><br>melody songs
+                                </li>
+                                <li>
+                                    <span>news reading</span><br>newspaper,news channel
+                                </li>
+                                <li>
+                                    <span>playing games</span><br>volleyball,chess,mobile games
+                                </li>
+                              
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- servivese -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>College</h2>
+                    <p>B.COMPUTER APPLICATIONS<br>Don Bosco College<br>yelagiri hills<br>2019 to 2022</r> </p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>School</h2>
+                    <p>HSC <br>Sacred heart hr sec school<br>iruppukurichy <br>2018 to 2019</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python Fullstack</h2>
+                    <p>Fresherslab <br>python,html&css,react.js,django,mysql<br>2022[Nov]-2023[Mar]</p>
+                        <a href="#">learn more</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/portimg2.jpg">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>  display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+                            grid-gap:40px;</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/portimg2.jpg">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>  display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+                            grid-gap:40px;</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/portimg2.jpg">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>  display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+                            grid-gap:40px;</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+
+        </div>
+    </div>
+    <!-- contack -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@ecample.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>08309203023920</p>
+                    <div class="social-icons">
+                         <a href="#"><i class="fab fa-facebook"></i></a>
+                         <a href="#"><i class="fab fa-twitter-square"></i></a>
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+                         <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="nelson raj m (1).pdf" download class="btn btn2">download cv</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your nmae" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="ur message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright@ Nelson. made by<i class="fas fa-heart"></i> using utube</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("avtive-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemenu  = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySDAlXG4rCd1DMVhuTTV76kTwydiFr_u_tyvNeR-PPet9PwLBKeXmvpUThdaAIiUptnA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function()
+                    {
+                        msg.innerHTML = ""
+                    },5000 )
+                    form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
